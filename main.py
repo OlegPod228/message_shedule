@@ -55,6 +55,7 @@ schedule.every().thursday.at("07:00").do(send_thursday)
 schedule.every().friday.at("07:00").do(send_friday)
 schedule.every().tuesday.at("07:00").do(send_tuesday)
 
+bot.send_message(779917069, "Я запущен")
 
 while True:
 	schedule.run_pending()
